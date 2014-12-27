@@ -1,13 +1,14 @@
-#+BEGIN
+ï»¿#+BEGIN
 #+UPDATE_TIME 2014-12-22 20:00:00
 #+MESSAGE
 #######################################################################
 #
 #  Acrylated imouto.host
-#  #Ver : 2.27.0535.0 A crying&late Teirureddo
-#  #Update Time : 2014.12.22;20:00
+#  #Ver : 2.27.0535.1
+#  #Update Time : 2014.12.27;18:53
 #  #Fix & Bug : 
-#  # 2.27.0535.0: FIRST VERSION
+#  # 2.27.0535.1: 173.194^3
+#
 #######################################################################
 #+MESSAGE_END
 
@@ -17,8 +18,13 @@
 #localhost END
 
 #AdBlock START
-#127.0.0.1	ad.* ads.* *.admob.com *.doubleclick.net
+127.0.0.1	ad.* ads.* *.admob.com *.doubleclick.net
 #AdBlock END
+
+#Baidu SB START
+#127.0.0.1 *.baidu.com -pan.baidu.com
+64.233.186.199 www.baidu.com.sb
+#Baidu SB END
 
 #ccFox.info START
 66.155.11.238	ccfox.info
@@ -32,7 +38,7 @@
 #12306 END
 
 #ProjectH START
-106.186.31.197	projecth.us *.repo.projecth.us
+106.186.31.197	projecth.us *.projecth.us
 #ProjectH END
 
 #WordPress START
@@ -77,8 +83,8 @@
 #feedly START
 162.159.252.5	www.feedly.com
 162.159.252.5	feedly.com
-74.125.204.121	s3.feedly.com
-64.233.165.141	feedly-beta.appspot.com
+173.194.194.121	s3.feedly.com
+173.194.194.141	feedly-beta.appspot.com
 #feedly END
 
 #FlipBoard START
@@ -127,7 +133,7 @@
 173.252.120.6	facebook.com
 173.252.74.22	www.facebook.com
 173.252.74.22	m.facebook.com
-69.171.235.13	bigzipfiles.facebook.com
+69.171.235.22	bigzipfiles.facebook.com
 69.171.230.5	api.facebook.com
 173.252.120.8	b-api.facebook.com
 69.171.230.5	api-read.facebook.com
@@ -163,19 +169,23 @@
 #Facebook END
 
 #Flickr START
-69.147.76.173	flickr.com
-124.108.101.10	www.flickr.com
-121.101.144.116	up.flickr.com
-121.101.144.112	api.flickr.com
-106.10.137.23	static.flickr.com
-208.71.44.31	secure.flickr.com
-208.71.44.31	m.flickr.com
+106.10.137.23 static.flickr.com
+27.123.51.89 c?.staticflickr.com
+106.10.137.23 farm?.staticflickr.com
+69.147.76.173 flickr.com
+124.108.101.10 www.flickr.com
+121.101.144.116 up.flickr.com
+121.101.144.112 api.flickr.com
+208.71.44.31 secure.flickr.com
+208.71.44.31 m.flickr.com
+124.108.101.10 up.flickr.com
+203.84.197.26 www.flickr.com
+203.84.197.26 flickr.com
+203.84.197.27 api.flickr.com
+#Flickr END
 
 #imgur START
-103.245.222.193	imgur.com
-103.245.222.193	www.imgur.com
-103.245.222.193	i.imgur.com
-103.245.222.193	s.imgur.com
+103.245.222.193	imgur.com *.imgur.com
 #imgur END
 
 #DuckDuckGo START
@@ -188,67 +198,90 @@
 #Ixquick END
 
 #Startpage START
-37.0.88.36	startpage.com
-37.0.88.36	*.startpage.com
+37.0.88.36	startpage.com *.startpage.com
 #Startpage END
 
 #Google Services START
-#www.google.com¡ý
-173.194.120.88	www.google.com 
-#www.google.com¡ü
-#Googleapis¡ý
-74.125.130.95	googleapis.com *.googleapis.com
-#Googleapis¡ü
-#Android¡ý
-173.194.120.88	*.googlehosted.com
-64.233.181.188	mtalk.google.com
-64.233.181.125	talk.google.com
-64.233.181.125	talkx.l.google.com
-64.233.181.125	talk.l.google.com
-64.233.181.211	proxy.googlezip.net
-64.233.181.211	ext.google.com
-#Android¡ü
-#Youtube¡ý
-173.194.120.88	*.youtube.com youtube.com youtu.be *.youtube-nocookie.com *.ytimg.com manifest.googlevideo.com redirector.googlevideo.com
-#130.211.251.200 *.c.youtube.com *.googlevideo.com
-#Youtube¡ü
-#Appspot¡ý
-173.194.120.88	www.appspot.com *.appspot.com
-#Appspot¡ü
-#Googleusercontent¡ý
-173.194.195.132	*.googleusercontent.com *.ggpht.com
-#Googleusercontent¡ü
-#Gstatic¡ý
-173.194.120.88	*.gstatic.com
-#Gstatic¡ü
+
+###Google Beijingâ†“
+#Google Accounts
+203.208.46.177 accounts.google.com accounts.l.google.com
+#Google Code
+203.208.46.177 code.google.com code.l.google.com googlecode.com *.googlecode.com googlesource.com *.googlesource.com
+#Googleusercontent
+203.208.46.170 lh?.googleusercontent.com *.ggpht.com
+#Gstatic
+203.208.46.177 *.gstatic.com csi.l.google.com
 #Google Scholar
 203.208.46.177 scholar.google.com scholar.google.com.??
-#Google other¡ý
-#64.233.181.192	supl.google.com 
-173.194.195.121 ghs.google.com ghs*.google.com
-173.194.120.88 www.gwtproject.org 
-173.194.120.88 *.googlesource.com googlesource.com googlesource.com *.googlesource.com googledrive.com
-173.194.120.88	www.blogger.com *.blogspot.com
-173.194.120.88	*.chromium.org chromium.org
-173.194.120.88	*.android.com android.com
-173.194.120.88	chrome.angrybirds.com
-173.194.120.88	developer.chrome.com
-173.194.120.88	domains.googlesyndication.com
-173.194.120.88 *.googlelabs.com
-203.208.46.177	g.co goo.gl
-173.194.120.88	gmail.com *.gmail.com m.googlemail.com
-173.194.120.88	*.google-analytics.com
-173.194.120.88	*.googleadservices.com
-173.194.120.88	panoramio.com *.panoramio.com
-173.194.120.88	www.webmproject.org
-173.194.120.88	golang.org *.golang.org feeds.feedburner.com
-173.194.120.88 *.google.com *.google.com.?? google.??
-#Google other¡ü
+#Google Maps
+203.208.46.177 maps.google.com ditu.google.com
+#Google Translate
+203.208.46.177 translate.google.com
+#Android.com
+203.208.46.177 android.com www.android.com source.android.com market.android.com
+#GMail
+203.208.46.177 gmail.com
+#203.208.46.177 mail.google.com #UNSTABLE
+#Google Play
+#203.208.46.177 play.google.com #UNSTABLE
+#Google Short URL
+203.208.46.177 g.co goo.gl
+
+###Google Beijingâ†‘
+
+#Googleapisâ†“
+173.194.194.95	googleapis.com *.googleapis.com
+#Googleapisâ†‘
+#Androidâ†“
+173.194.194.194	*.googlehosted.com
+#173.194.65.188	mtalk.google.com
+64.233.186.125	talk.google.com
+64.233.186.125	talkx.l.google.com
+64.233.186.125	talk.l.google.com
+64.233.186.211	proxy.googlezip.net
+64.233.186.211	ext.google.com
+#Androidâ†‘
+#Youtubeâ†“
+173.194.194.194	*.youtube.com youtube.com youtu.be *.youtube-nocookie.com *.ytimg.com manifest.googlevideo.com redirector.googlevideo.com redirector.c.youtube.com
+173.194.194.121 apiblog.youtube.com
+#37.61.54.158 *.c.youtube.com *.googlevideo.com
+#Youtubeâ†‘
+#Appspotâ†“
+173.194.194.141	appspot.com *.appspot.com
+#Appspotâ†‘
+#Googleusercontentâ†“
+173.194.194.132	*.googleusercontent.com *.ggpht.com
+#Googleusercontentâ†‘
+#Gstaticâ†“
+173.194.194.194	*.gstatic.com
+#Gstaticâ†‘
+#Google otherâ†“
+#64.233.186.192	supl.google.com 
+173.194.194.121 ghs.google.com ghs*.google.com
+173.194.194.194 www.gwtproject.org 
+173.194.194.194 *.googlesource.com googlesource.com googlecode.com *.googlecode.com googledrive.com googlegroups.com *.googlegroups.com
+173.194.194.194	www.blogger.com *.blogspot.com
+173.194.194.194	*.chromium.org chromium.org
+173.194.194.194	*.android.com android.com
+173.194.194.194	chrome.angrybirds.com
+173.194.194.194	developer.chrome.com
+173.194.194.194	domains.googlesyndication.com
+173.194.194.194 *.googlelabs.com
+173.194.194.194	g.co goo.gl
+173.194.194.194	gmail.com *.gmail.com m.googlemail.com
+173.194.194.194	*.google-analytics.com
+173.194.194.194	*.googleadservices.com
+173.194.194.194	panoramio.com *.panoramio.com
+173.194.194.194	www.webmproject.org
+173.194.194.194	golang.org *.golang.org feeds.feedburner.com
+173.194.194.194 *.google.com *.google.com.?? google.??
+#Google otherâ†‘
 #Google Services END
 
 #Wikipedia START
-198.35.26.96	*.wikipedia.org
 91.198.174.204 *.m.wikipedia.org
+198.35.26.96	*.wikipedia.org
 198.35.26.112	upload.wikimedia.org
 198.35.26.106	bits.wikimedia.org
 198.35.26.96	www.mediawiki.org
