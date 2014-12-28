@@ -1,13 +1,13 @@
 ﻿#+BEGIN
-#+UPDATE_TIME 2014-12-22 19:42
+#+UPDATE_TIME 2014-12-28 14:09
 #+MESSAGE
 #######################################################################
 #
 #  Acrylated imouto.host
-#  #Ver : 2.27.0535.1
-#  #Update Time : 2014.12.27;19:42
+#  #Ver : 2.27.0535.2
+#  #Update Time : 2014.12.28;14:09
 #  #Fix & Bug : 
-#  # 2.27.0535.1: 173.194^3
+#  # 2.27.0535.2: 173.194^3
 #
 #######################################################################
 #+MESSAGE_END
@@ -99,7 +99,9 @@
 199.16.158.9	api.twitter.com
 199.16.158.19	urls-real.api.twitter.com
 199.16.158.12	t.co
-199.16.158.11	tweetdeck.com *.tweetdeck.com tdweb.twitter.com
+199.16.158.11	tweetdeck.com *.tweetdeck.com tdweb.twitter.com tweetdeck.twitter.com
+199.16.158.107  tweetdeck.twitter.com
+199.59.148.249 ton.twitter.com
 #23.44.161.224	p.twitter.com
 199.96.57.6 cdn.api.twitter.com
 23.44.161.224	platform.twitter.com
@@ -124,6 +126,7 @@
 199.16.158.10	dev.twitter.com
 199.16.158.81	userstream.twitter.com
 96.127.160.130	twitpic.com web?.twitpic.com web??.twitpic.com
+199.16.158.8 *.twitter.com
 #Twitter END
 
 #Facebook START
@@ -264,6 +267,7 @@
 173.194.194.194	www.blogger.com *.blogspot.com
 173.194.194.194	*.chromium.org chromium.org
 173.194.194.194	*.android.com android.com
+173.194.194.194 *.withgoogle.com
 173.194.194.194	chrome.angrybirds.com
 173.194.194.194	developer.chrome.com
 173.194.194.194	domains.googlesyndication.com
