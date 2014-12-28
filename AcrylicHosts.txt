@@ -261,12 +261,12 @@
 #Gstatic↑
 #Google other↓
 #64.233.186.192	supl.google.com 
-173.194.194.121 ghs.google.com ghs*.google.com
+173.194.194.121 ghs*.google.com
 173.194.194.194 www.gwtproject.org 
 173.194.194.194 *.googlesource.com googlesource.com googlecode.com *.googlecode.com googledrive.com googlegroups.com *.googlegroups.com
-173.194.194.194	www.blogger.com *.blogspot.com
+173.194.194.194	*.blogger.com *.blogspot.com
 173.194.194.194	*.chromium.org chromium.org
-173.194.194.194	*.android.com android.com
+173.194.194.194	*.android.com android.com www.androidify.com
 173.194.194.194 *.withgoogle.com
 173.194.194.194	chrome.angrybirds.com
 173.194.194.194	developer.chrome.com
