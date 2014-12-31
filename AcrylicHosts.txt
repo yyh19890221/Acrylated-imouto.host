@@ -1,13 +1,13 @@
 ﻿#+BEGIN
-#+UPDATE_TIME 2014-12-28 14:09
+#+UPDATE_TIME 2014-12-31 20:19
 #+MESSAGE
 #######################################################################
 #
 #  Acrylated imouto.host
 #  #Ver : 2.27.0535.2
-#  #Update Time : 2014.12.28;14:09
+#  #Update Time : 2014.12.31;20:19
 #  #Fix & Bug : 
-#  # 2.27.0535.2: 173.194^3
+#  # 2.27.0535.3: Gmail
 #
 #######################################################################
 #+MESSAGE_END
@@ -216,7 +216,7 @@
 #Gstatic
 203.208.46.177 *.gstatic.com csi.l.google.com
 #Google Scholar
-203.208.46.177 scholar.google.com scholar.google.com.??
+203.208.46.177 scholar.google.com scholar.l.google.com scholar.google.com.??
 #Google Maps
 203.208.46.177 maps.google.com ditu.google.com
 #Google Translate
@@ -235,19 +235,19 @@
 
 #Googleapis↓
 173.194.194.95	googleapis.com *.googleapis.com
+173.194.194.194 mt0.googleapis.com mt1.googleapis.com mt2.googleapis.com mt3.googleapis.com
 #Googleapis↑
 #Android↓
 173.194.194.194	*.googlehosted.com
-#173.194.65.188	mtalk.google.com
-64.233.186.125	talk.google.com
-64.233.186.125	talkx.l.google.com
-64.233.186.125	talk.l.google.com
-64.233.186.211	proxy.googlezip.net
-64.233.186.211	ext.google.com
+173.194.193.188	mtalk.google.com
+173.194.194.193 m.google.com mobile.l.google.com
+64.233.186.125	talk.google.com talkx.l.google.com talk.l.google.com
+64.233.186.211	proxy.googlezip.net ext.google.com
 #Android↑
 #Youtube↓
 173.194.194.194	*.youtube.com youtube.com youtu.be *.youtube-nocookie.com *.ytimg.com manifest.googlevideo.com redirector.googlevideo.com redirector.c.youtube.com
 173.194.194.121 apiblog.youtube.com
+173.194.194.117 stage.data.youtube.com upload.video.google.com
 #37.61.54.158 *.c.youtube.com *.googlevideo.com
 #Youtube↑
 #Appspot↓
@@ -260,11 +260,26 @@
 173.194.194.194	*.gstatic.com
 #Gstatic↑
 #Google other↓
-#64.233.186.192	supl.google.com 
+74.125.207.109    gmail-pop.l.google.com
+74.125.69.16    pop.googlemail.com
+74.125.69.16    googlemail-pop.l.google.com
+74.125.69.109    smtp.gmail.com
+74.125.69.109    gmail-smtp-msa.l.google.com
+173.194.65.109    gmail-smtp.l.google.com
+74.125.201.27    gmail-smtp-in.l.google.com
+74.125.201.14    gmr-smtp-in.l.google.com
+74.125.69.16    smtp.googlemail.com
+74.125.69.16    googlemail-smtp.l.google.com
+74.125.193.109    imap.gmail.com
+74.125.193.108    gmail-imap.l.google.com
+74.125.69.16    imap.googlemail.com
+74.125.69.16    googlemail-imap.l.google.com
+74.125.193.108    pop.gmail.com﻿
+173.194.193.192	supl.google.com 
 173.194.194.121 ghs*.google.com
 173.194.194.194 www.gwtproject.org 
-173.194.194.194 *.googlesource.com googlesource.com googlecode.com *.googlecode.com googledrive.com googlegroups.com *.googlegroups.com
-173.194.194.194	*.blogger.com *.blogspot.com
+173.194.194.194 *.googlesource.com googlesource.com googlecode.com *.googlecode.com googledrive.com *.googledrive.com googlegroups.com *.googlegroups.com *.googlegroups.com
+173.194.194.194	*.blogger.com blogger.com *.blogspot.com
 173.194.194.194	*.chromium.org chromium.org
 173.194.194.194	*.android.com android.com www.androidify.com
 173.194.194.194 *.withgoogle.com
