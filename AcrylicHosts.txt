@@ -112,6 +112,7 @@
 69.171.230.5	*.facebook.com facebook.com vpn.tfbnw.net ldap.thefacebook.com
 69.171.235.9	s-static.facebook.com
 42.99.128.138	fbcdn-profile-a.akamaihd.net
+31.13.73.152 scontent-?.xx.fbcdn.net
 61.213.171.59	*.ak.facebook.com *.fbcdn.net
 61.213.171.59 a248.e.akamai.net
 23.32.241.64 fbcdn-sphotos-a.akamaihd.net
