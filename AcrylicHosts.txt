@@ -186,6 +186,7 @@
 #Googleapis↓
 173.194.194.95	googleapis.com *.googleapis.com
 173.194.194.194 mt0.googleapis.com mt1.googleapis.com mt2.googleapis.com mt3.googleapis.com
+173.194.194.132 commondatastorage.googleapis.com
 #Googleapis↑
 #Android↓
 173.194.194.194	*.googlehosted.com
