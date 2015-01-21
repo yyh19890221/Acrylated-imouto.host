@@ -1,13 +1,13 @@
 ﻿#+BEGIN
-#+UPDATE_TIME 2015-01-10 14:10
+#+UPDATE_TIME 2015-01-21 23:30
 #+MESSAGE
 #######################################################################
 #
 #  Acrylated imouto.host
-#  #Ver : 2.27.0535.4
-#  #Update Time : 2015-01-10 14:10
+#  #Ver : 2.27.0535.5
+#  #Update Time : 2015-01-21 23:30
 #  #Fix & Bug : 
-#  # 2.27.0535.4: Facebook Twitter
+#  # 2.27.0535.5: Integrate Google Beijing IP
 #
 #######################################################################
 #+MESSAGE_END
@@ -157,13 +157,11 @@
 
 #Google Services START
 
-###Google Beijing↓
 #GMail
 203.208.46.177 gmail.com
 #203.208.46.177 mail.google.com #UNSTABLE
 #Google Play
 #203.208.46.177 play.google.com #UNSTABLE
-###Google Beijing↑
 
 #Googleapis↓
 173.194.194.95	googleapis.com *.googleapis.com
@@ -181,17 +179,17 @@
 173.194.194.194	*.youtube.com youtube.com youtu.be *.youtube-nocookie.com *.ytimg.com manifest.googlevideo.com redirector.googlevideo.com redirector.c.youtube.com
 173.194.194.121 apiblog.youtube.com
 173.194.194.117 stage.data.youtube.com upload.video.google.com
-#37.61.54.158 *.c.youtube.com *.googlevideo.com
+#104.245.8.250 *.c.youtube.com *.googlevideo.com
 #Youtube↑
 #Appspot↓
 173.194.194.141	appspot.com *.appspot.com *.withgoogle.com *.googlelabs.com *.google.org
 #Appspot↑
 #Googleusercontent↓
-203.208.46.170 lh?.googleusercontent.com ci?.googleusercontent.com *.ggpht.com
+203.208.46.170 lh?.googleusercontent.com ci?.googleusercontent.com doc-??-??-docs.googleusercontent.com webcache.googleusetcontent.com *.ggpht.com
 173.194.194.132	*.googleusercontent.com
 #Googleusercontent↑
 #Gstatic↓
-203.208.46.177	*.gstatic.com
+203.208.46.177	*.gstatic.com csi.l.google.com
 #Gstatic↑
 #Google other↓
 74.125.207.109    gmail-pop.l.google.com
@@ -231,6 +229,7 @@
 203.208.46.177 scholar.google.com scholar.l.google.com scholar.google.com.??
 203.208.46.177 ditu.google.com
 203.208.46.177 translate.google.com
+203.208.46.177 mt?.google.com lh?.google.com dl.google.com
 173.194.194.194	panoramio.com *.panoramio.com
 173.194.194.194	www.webmproject.org
 173.194.194.194	golang.org *.golang.org feeds.feedburner.com
